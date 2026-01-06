@@ -1,6 +1,6 @@
 class Calculator:
     def add(self, num1, num2):
-        return num1 + num2
+        return num2 + num1
 
 
 num1 = int(input("Enter the number 1:"))
