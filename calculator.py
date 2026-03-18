@@ -6,10 +6,7 @@ class Calculator:
         return num3 - num4
 
     def multiply(self, num5, num6):
-        return num5*num6
-
-    def divide(self, num7, num8):
-        return num7/num8
+        return num5 * num6
 
 
 num1 = int(input("Enter the number 1:"))
@@ -18,8 +15,3 @@ calci = Calculator()
 print(calci.add(num1, num2))
 print(calci.subtract(num1, num2))
 print(calci.multiply(num1, num2))
-print(calci.divide(num1, num2))
-
-
-
-
